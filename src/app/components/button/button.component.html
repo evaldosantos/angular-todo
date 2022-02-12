@@ -1,1 +1,4 @@
-<button [ngStyle]="{ backgroundColor: color }" class="btn">{{ text }}</button>
+<button 
+  [ngStyle]="{ backgroundColor: color }" 
+  class="btn"
+  (click)="onClick()">{{ text }}</button>
